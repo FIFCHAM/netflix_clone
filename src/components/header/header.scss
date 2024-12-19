@@ -1,7 +1,9 @@
 .header{
     display: flex;
-    justify-content: space-between;
     color: white;
+    position: absolute;
+    z-index: 3;
+    width: 100%;
 
 
     &__container{
@@ -9,8 +11,9 @@
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        max-width: 1200px;
-        margin: 0 auto;
+        height: 88px;
+        margin-left: 150px;
+        margin-right: 150px;
 
         img {
           width: 148px;
@@ -19,24 +22,37 @@
     .language-login-container{
         display: flex;
         align-items: center;
+        gap: 15px;
         .language-container{
-            display: flex;
-            align-items: center;
-      width: 30px;
-      img{
-        background-color: #000;
+          display: flex;
+          background-color: transparent;
+          align-items: center;
+          border: 1px solid grey;
+          border-radius: 5px;
+          padding: 6px 10px;
+            img{
+        width: 20px;
       }
-            select{
+            .language-select{
               background-color: transparent;
               border: none;
               color: white;
-              font-size: 1.2rem;
-              font-weight: bold;
+              font-size: 1.0rem;
               cursor: pointer;
             }
         }
     }
-}
+    .login-button{
+      color: white;
+      background-color: rgb(229,9,20);
+      border: 1px solid rgb(229,9,20);
+      border-radius: 5px;
+      padding: 6px 10px;
+      font-size: 1.0rem;
+      cursor: pointer;
 
+    }
+
+  }
 
 
