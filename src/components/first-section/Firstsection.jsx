@@ -15,9 +15,9 @@ function FirstSection() {
           abonner ou réactiver votre abonnement.
         </h3>
         <div className="form-input-container">
+          <label htmlFor="email">Adresse e-mail</label>
           <input
             type="email"
-            placeholder="Email"
             className="first-section-form-input"
           />
           <div className="form-submit">
