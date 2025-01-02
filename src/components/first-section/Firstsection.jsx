@@ -14,12 +14,15 @@ function FirstSection() {
           Prêt à regarder Netflix ? Saisissez votre adresse e-mail pour vous
           abonner ou réactiver votre abonnement.
         </h3>
-        <div className="form-input-container">
+        <div className="form-container">
+          <div className="email-container">
           <label htmlFor="email">Adresse e-mail</label>
           <input
             type="email"
             className="first-section-form-input"
           />
+
+          </div>
           <div className="form-submit">
             <button type="submit">
               Commencer
